@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.testNGListeners.TestListeners"/>
+  </listeners>
+  <test name="UnitedStatesTest" verbose="2">
+    <classes>
+      <class name="com.test.hlComSites.UnitedStatesTest">
+        <methods>
+          <include name="VerifyHomePageofUSCountry"/>
+        </methods>
+      </class> <!-- com.test.hlComSites.UnitedStatesTest -->
+    </classes>
+  </test> <!-- UnitedStatesTest -->
+</suite> <!-- Failed suite [RegressionSuite] -->

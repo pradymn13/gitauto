@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-15T12:37:26 IST" name="RegressionSuite" finished-at="2022-08-15T12:37:44 IST" duration-ms="17996">
+    <groups>
+    </groups>
+    <test started-at="2022-08-15T12:37:26 IST" name="UnitedStatesTest" finished-at="2022-08-15T12:37:44 IST" duration-ms="17996">
+      <class name="com.test.hlComSites.UnitedStatesTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.test.hlComSites.UnitedStatesTest@7ce026d3]" started-at="2022-08-15T12:37:26 IST" name="beforeTest" finished-at="2022-08-15T12:37:26 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3dd31157]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.test.hlComSites.UnitedStatesTest@7ce026d3]" started-at="2022-08-15T12:37:26 IST" name="beforeMethod" finished-at="2022-08-15T12:37:29 IST" duration-ms="3402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.hlComSites.UnitedStatesTest.VerifyHomePageofUSCountry()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3dd31157]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="Intiatetest()[pri:0, instance:com.test.hlComSites.UnitedStatesTest@7ce026d3]" started-at="2022-08-15T12:37:29 IST" name="Intiatetest" finished-at="2022-08-15T12:37:38 IST" duration-ms="8216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Intiatetest -->
+        <test-method signature="VerifyHomePageofUSCountry()[pri:0, instance:com.test.hlComSites.UnitedStatesTest@7ce026d3]" started-at="2022-08-15T12:37:38 IST" name="VerifyHomePageofUSCountry" finished-at="2022-08-15T12:37:39 IST" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageofUSCountry -->
+        <test-method is-config="true" signature="AfterMethod(java.lang.reflect.Method,org.testng.ITestContext,org.testng.ITestResult)[pri:0, instance:com.test.hlComSites.UnitedStatesTest@7ce026d3]" started-at="2022-08-15T12:37:39 IST" name="AfterMethod" finished-at="2022-08-15T12:37:44 IST" duration-ms="5034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.hlComSites.UnitedStatesTest.VerifyHomePageofUSCountry()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3dd31157]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=VerifyHomePageofUSCountry status=SUCCESS method=UnitedStatesTest.VerifyHomePageofUSCountry()[pri:0, instance:com.test.hlComSites.UnitedStatesTest@7ce026d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.test.hlComSites.UnitedStatesTest@7ce026d3]" started-at="2022-08-15T12:37:44 IST" name="afterTest" finished-at="2022-08-15T12:37:44 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3dd31157]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.hlComSites.UnitedStatesTest -->
+    </test> <!-- UnitedStatesTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

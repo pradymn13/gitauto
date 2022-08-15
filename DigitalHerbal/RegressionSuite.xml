@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <listeners>
+    <listener class-name="com.testNGListeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="UnitedStatesTest" verbose="2">
+    <classes>
+      <class name="com.test.hlComSites.UnitedStatesTest">
+        <methods>
+          <include name="VerifyHomePageofUSCountry"/>
+        </methods>
+      </class> <!-- com.test.hlComSites.UnitedStatesTest -->
+    </classes>
+  </test> <!-- UnitedStatesTest -->
+</suite> <!-- RegressionSuite -->
